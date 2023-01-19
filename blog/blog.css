@@ -2,3 +2,18 @@
     background-color: linear-gradient(#A34F10, #C48E60);
     color: #FFFFFF;
 }
+.main_content{
+    position: absolute;
+    width: 719px;
+    height: 719px;
+    left: 130px;
+    top: 290px;
+}
+.others_content{
+    position: absolute;
+    width: 851px;
+    height: 719px;
+    left: 925px;
+    top: 290px;
+    overflow-y: scroll;
+}
