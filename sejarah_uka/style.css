@@ -2,6 +2,21 @@
     box-sizing: border-box;
     margin: 0;
 }
+.wrapper {
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.vector {
+    width: 100%;
+    height: 0px;
+    left: 143px;
+    top: 20px;
+    border: 4px solid #FFFFFF;
+    flex-grow: 2;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -54,9 +69,10 @@ nav ul {
 
 .judul-artikel img {
     /* width: 1263px; */
-    height: 271.7px;
+    height: auto;
     margin: 0 auto;
     margin-top: 10px;
+    max-width: 100% ;
 }
 
 .blank-space{
@@ -87,8 +103,9 @@ nav ul {
     padding-right: 95px;
 }
 
-.timeline {
-    height: 256px;
+.timeline img {
+    height: auto;
+    max-width: 100% ;
     /* margin-bottom: 0; */
 }
 
