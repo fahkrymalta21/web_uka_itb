@@ -69,13 +69,19 @@ nav ul {
 
 .judul-artikel {
     /* width: 1263px; */
-    height: auto;
+    min-height: 100%;
     margin: 0 auto;
     margin-top: 10px;
-    max-width: 100% ;
-    background-image: #C48E60 ,url(images/aktivitas.png);
+    padding-top: 23%;
+    padding-bottom: 2%;
+    background-image: url(/images/aktivitas.png);
 }
-
+.judul-artikel h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
 .blank-space{
     height: 30px;
 }
