@@ -2,6 +2,21 @@
     box-sizing: border-box;
     margin: 0;
 }
+.wrapper {
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.vector {
+    width: 100%;
+    height: 0px;
+    left: 143px;
+    top: 20px;
+    border: 4px solid #FFFFFF;
+    flex-grow: 2;
+}
 
 body {
     font-family: "Roboto", sans-serif;
