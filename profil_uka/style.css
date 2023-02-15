@@ -53,8 +53,8 @@ nav ul {
 }
 
 .judul-artikel img {
-    /* width: 1263px; */
-    height: 271.7px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     margin-top: 10px;
 }

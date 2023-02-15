@@ -34,6 +34,10 @@ nav {
     justify-content: space-between;
 }
 
+.right-nav {
+    flex-direction: column;
+}
+
 nav ul {
     display: flex;
 }
@@ -53,10 +57,11 @@ nav ul {
 }
 
 .judul-artikel img {
-    /* width: 1263px; */
-    height: 271.7px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     margin-top: 10px;
+    position: relative;
 }
 
 .blank-space{
@@ -88,8 +93,12 @@ nav ul {
 }
 
 .timeline {
-    height: 256px;
-    /* margin-bottom: 0; */
+    margin: auto;
+}
+
+.timeline img {
+    width: 100%;
+    height: auto;
 }
 
 footer {
