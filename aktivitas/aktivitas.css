@@ -5,6 +5,10 @@
 @font-face {
     font-family: "Poppins";
     src: url('/Poppins/Poppins-Medium.ttf');}
+@font-face {
+    font-family: "Poppins1";
+    src: url('/Poppins/Poppins-Light.ttf');}
+            
 
 .wrapper {
     display: flex;
@@ -117,7 +121,7 @@ p{
 
 }
 .content-col{
-    font-family: 'Poppins';
+    font-family: 'Poppins1', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -127,21 +131,24 @@ p{
     position:relative;
     flex-flow: row nowrap;
     display: inline-flex;
+    color: #FFFFFF;
 }
-.conten-col img{
-    margin: 5%;
-    max-width: 50%;
-}
-.conten-col p+h2{
-    display: flex;
-    flex-flow: column;
-    padding: 10px;
+.content-col img{
+    max-width: 30%;
 }
 
-.timeline img {
-    height: auto;
-    max-width: 100% ;
-    /* margin-bottom: 0; */
+.content-col h2{
+    margin: 5px 0 20px 0;
+}
+
+.content-col p{
+    margin-right: 40px;
+}
+
+.isi-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 footer {
