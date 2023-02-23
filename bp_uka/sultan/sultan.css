@@ -80,7 +80,7 @@ nav ul {
 .isi img {
     width: 43%;
     padding: 5%;
-    float: unset;
+    /* float: unset; */
 }
 
 .isi .deskripsi-sultan {

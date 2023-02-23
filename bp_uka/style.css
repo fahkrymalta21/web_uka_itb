@@ -210,6 +210,7 @@ nav ul {
 .organogram .column {
     width: 18.75%;
     padding: 10px;
+    /* margin-top: 65px; */
 }
 
 .organogram .column img {
@@ -225,4 +226,18 @@ nav ul {
     content: "";
     display: table;
     clear: both;
+} */
+
+/* .line1 {
+    border-left: 2px solid #D79561;
+    position: static;
+    height: 100px;
+    margin-left: 50%;
+    top: 565px;
+}
+
+.line2 {
+    border-top: 2px solid #D79561;
+    position: absolute;
+    width: 200px;
 } */
