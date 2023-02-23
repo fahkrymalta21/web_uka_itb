@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+.background {
+    background-image: url('../../images/background_very_long.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-container {
+    /* background-color: #c6aa92 153.17%; */
+}
+
+.nav-bar {
+    height: 90px;
+}
+
+.logo {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-items li a {
+    color: #111111;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.judul::after {
+    content: "";
+    background-color: #FFFFFF;
+    /* border-radius: 40px; */
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 0px;
+    right: 0px;
+    opacity: 0.4;
+}
+
+.judul h1 {
+    color: #FFFFFF;
+    margin-top: 9.3%;
+    /* margin-bottom: auto; */
+    margin-left: 7%;
+}
+
+.kabid {
+    margin-top: 5%;
+    /* border-radius: 40px; */
+    /* background-color: #ffff;
+    opacity: 0.4; */
+    display: flex;
+}
+
+.kabid::after {
+    content: "";
+    background-color: #ffff;
+    border-radius: 40px;
+    position: absolute;
+    top: 60%;
+    bottom: -40%;
+    left: 63px;
+    right: 63px;
+    opacity: 0.2;
+}
+
+.kabid img {
+    width: 43%;
+    padding: 7.5%;
+    padding-left: 9.5%;
+    /* float: unset; */
+}
+
+.kabid .deskripsi-kabid {
+    color: #FFFF;
+    font-weight: bold;
+    margin-top: 9.5%;
+}
+
+.deskripsi-kabid p {
+    margin-top: 9%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    float: left;
+    width: 40%;
+}
+
+.column img {
+    width: 65%;
+    /* padding: 7.5%;
+    padding-left: 9.5%; */
+    margin-left: 24%;
+}
+
+.anggota {
+    margin-top: 8%;
+    /* border-radius: 40px;
+    background-color: #ffff;
+    opacity: 0.4;
+    display: flex; */
+}
+
+.anggota::after {
+    content: "";
+    background-color: #ffff;
+    border-radius: 40px;
+    position: absolute;
+    top: 157%;
+    bottom: -206%;
+    left: 63px;
+    right: 63px;
+    opacity: 0.2;
+}
+
+.deskripsi-msda {
+    color: #FFFF;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.deskripsi-msda p {
+    margin-top: 9%;
+}
+
+.deskripsi-psda {
+    color: #FFFF;
+    font-weight: bold;
+    margin-top: 51%;
+    margin-left: 7%;
+}
+
+.deskripsi-psda p {
+    margin-top: 9%;
+}
+
+.deskripsi-medinfo {
+    color: #FFFF;
+    font-weight: bold;
+    margin-top: 51%;
+    margin-left: 7%;
+}
+
+.deskripsi-medinfo p {
+    margin-top: 9%;
+}
+
+.footer {
+    background: #373737;
+    /* box-shadow: 0px -20px 20px rgba(0, 0, 0, 0.2); */
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    margin-top: 0%;
+}
+
+.footer h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* or 120% */
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    opacity: 0.25;
+    margin-bottom: 10px;
+}
+.blank-space p {
+    visibility: hidden;
+}
+
+.footer .media-sosial img {
+    width: 40px;
+}   
