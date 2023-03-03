@@ -47,7 +47,19 @@ nav ul {
     list-style: none;
     margin-right: 20px;
 }
-
+a:link{text-decoration:none;}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
 .nav-items li a {
     color: #111111;
     font-family: 'Poppins';
@@ -252,6 +264,16 @@ nav ul {
     text-size-adjust: 10px; */
     /* line-height: 24px; */
 }
-
+.dropdown-content::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    transition: 0.5s;
+}
+.dropdown-content::after{
+    width: 100%;
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}

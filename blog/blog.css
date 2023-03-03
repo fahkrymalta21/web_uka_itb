@@ -41,11 +41,11 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-a:link{text-decoration:none;}
+
 nav ul {
     display: flex;
 }
-
+a:link{text-decoration:none;}
 nav ul li::after{
     content: '';
     width: 0%;
@@ -72,6 +72,7 @@ nav ul li:hover::after{
     line-height: 24px;
     font-weight:600;
 }
+
 p{
     margin : 0, 5%, 5%, 0;
     font-size:medium;
