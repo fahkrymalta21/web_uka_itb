@@ -22,15 +22,18 @@ body {
 .logo {
     padding-left: 20px;
     padding-top: 10px;
-    width: 30%;
+    width: 40%;
+    height: auto;
+    position: static;
 }
 .logo img{
-    width: 10%;
+    width: 55px;
+
 }
 
 .wrapper {
     max-width: 1920px;
-    background:#C48E60;
+    background:#A34F10;
 }
 
 nav {
@@ -43,6 +46,18 @@ nav ul {
     display: flex;
 }
 
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
 .nav-items li {
     list-style: none;
     margin-right: 20px;
@@ -55,7 +70,7 @@ nav ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    
+    font-weight:600;
 }
 p{
     margin : 0, 5%, 5%, 0;
@@ -72,12 +87,10 @@ p{
     padding-right: 5%;
 }
 .judul{
-    flex-basis: 100%;
     position: relative;
     width: 100%;
     font-family: 'Inter';
     font-size: 40px;
-    height: 100px;
     letter-spacing: 3px;
     word-spacing: 5px;
     padding-top: 20px;
@@ -173,6 +186,7 @@ footer .media-sosial img {
     font-size: 16px;
     line-height: 24px;
     text-decoration-line: underline;
+    font-weight: 500;
 }
 
 .dropdown {
